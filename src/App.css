@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+p{
+  font-weight: 400;
+}
+
+.recipeName{
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.recipeIngredientsList{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.recipes{
+  text-align: left;
+  color: #000;
+  margin: 20px auto;
+  width: 80%;
+  
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  background: linear-gradient(
+    to right bottom,
+    rgba(216, 114, 114, 0.7),
+    rgba(194, 138, 138, 0.3)
+  );
+  backdrop-filter: blur(2rem);
+  overflow: hidden;
+}
